@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+
+<body>
+
+<b>这个文本是加粗的</b>
+<br />
+<strong>这个文本是加粗的</strong>
+<br />
+<big>这个文本字体放大</big>
+<br />
+<em>这个文本是斜体的</em>
+<br />
+<i>这个文本是斜体的</i>
+<br />
+<small>这个文本是缩小的</small>
+<br />
+这个文本包含
+<sub>下标</sub>
+<br />
+
+这个文本包含
+<sup>上标</sup>
+<code>计算机输出</code>
+<br />
+<kbd>键盘输入</kbd>
+<br />
+<tt>打字机文本</tt>
+<br />
+<samp>计算机代码样本</samp>
+<br />
+<var>计算机变量</var>
+<br />
+
+<address>
+Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+<p>该段落文字从左到右显示。</p>  
+<p><bdo dir="rtl">该段落文字从右到左显示。</bdo></p>  
+
+<p>WWF's goal is to: 
+<q>Build a future where people live in harmony with nature.</q> //块引用
+We hope they succeed.</p>
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>  //delete and insert
+
+</body>
+</html>
