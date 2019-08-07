@@ -1,2 +1,2 @@
-# JavaScript-practise
-demo when learning JS
+# HTML-practise
+demo when learning HTML
