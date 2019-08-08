@@ -7,7 +7,7 @@
 <body>
 
 
-<h4>无序列表</h4>
+<h4>无序列表</h4>  //you can change the shape of mark using :<ul style="list-style-type:disc">,or circle/square
 <ul>
 	<li>coffee</li>
 	<li>tea</li>
@@ -22,6 +22,7 @@
   <li>milk</li>
 <ol>
 <ol start="50">  //start from No.50
+    //you can also use <ol type="A"> or "a""i""I"
   <li>coffee</li>
   <li>tea</li>
   <li>milk</li>
