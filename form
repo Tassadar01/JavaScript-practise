@@ -1,0 +1,55 @@
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>form</title> 
+</head>
+<body>
+
+<form action="demo-form.php">
+  Email: <input type="text" name="email"><br>
+  Pin: <input type="text" name="pin" maxlength="4"><br>
+  <input type="reset" value="重置">  //click this button to reset the whole form
+  <input type="submit" value="提交">
+</form>
+
+// value：提交数据到服务器的值（后台程序PHP使用）
+// name：为控件命名，以备后台程序 ASP、PHP 使用
+// checked：当设置 checked="checked" 时，该选项被默认选中
+
+//radio buttons:
+<form action="">   
+<input type="radio" name="sex" value="male" checked="checked">Male<br>  //"checked" is used to set the default value
+<input type="radio" name="sex" value="female">Female       //only one button can be chosen one time if they have a same "name"
+</form>
+
+
+//checkboxes:
+<form action="">
+<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+<input type="checkbox" name="vehicle" value="Car">I have a car 
+</form>
+
+//pull-down list
+<form action="">
+<select name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat" selected>Fiat</option>  //you can use "selected" to set the default
+<option value="audi">Audi</option>
+</select>
+</form>
+
+
+//textarea
+<textarea rows="10" cols="30">
+default values
+</textarea>
+
+
+//buttons
+<form action="">
+<input type="button" value="Hello world!">
+</form>
+
+</body>
+</html>
